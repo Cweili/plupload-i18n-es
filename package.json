@@ -1,0 +1,27 @@
+{
+  "name": "plupload-i18n-es",
+  "version": "0.0.1",
+  "description": "Export Plupload i18n language packs as ES2015 modules.",
+  "keywords": [
+    "plupload",
+    "i18n",
+    "language",
+    "es",
+    "es6",
+    "es2015",
+    "modules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cweili/plupload-i18n-es.git"
+  },
+  "author": "Cweili",
+  "license": "MIT",
+  "homepage": "https://github.com/Cweili/plupload-i18n-es",
+  "bugs": {
+    "url": "https://github.com/Cweili/plupload-i18n-es/issues"
+  },
+  "scripts": {
+    "build": "node build/build"
+  }
+}

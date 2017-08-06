@@ -3,10 +3,17 @@ const { resolve } = require('path');
 const {
   readdir,
   readFileSync,
-  writeFileSync
+  writeFileSync,
+  createReadStream,
+  createWriteStream
 } = require('fs');
 
 const template = 'export default function(plupload) { %s }';
+
+function cp(from, to) {
+  createReadStream(resolve(__dirname, from))
+    .pipe(createWriteStream(resolve(__dirname, to)));
+}
 
 readdir(resolve(__dirname, '../plupload/js/i18n'), (err, files) => {
   if (err) {
@@ -20,7 +27,10 @@ readdir(resolve(__dirname, '../plupload/js/i18n'), (err, files) => {
   }
 });
 
-writeFileSync(
-  resolve(__dirname, '../dist/package.json'),
-  readFileSync(resolve(__dirname, '../package.json'), 'utf8')
-);
+for (const file of [
+  'package.json',
+  'README.md',
+  'LICENSE'
+]) {
+  cp(`../${file}`, `../dist/${file}`);
+}

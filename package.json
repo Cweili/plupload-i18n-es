@@ -1,6 +1,6 @@
 {
   "name": "plupload-i18n-es",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Export Plupload i18n language packs as ES2015 modules.",
   "keywords": [
     "plupload",

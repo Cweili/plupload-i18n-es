@@ -1,9 +1,9 @@
 # Plupload i18n ES2015 modules
 
-[![npm][npm-version]](npm)
-[![npm][npm-downloads]](npm)
-[![npm][npm-license]](npm)
-[![github][github-issues]](github)
+[![npm][npm-version]][npm]
+[![npm][npm-downloads]][npm]
+[![npm][npm-license]][npm]
+[![github][github-issues]][github]
 
 Export Plupload i18n language packs as ES2015 modules.
 

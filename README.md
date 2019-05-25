@@ -30,13 +30,13 @@ export default function(plupload) {
 }
 ```
 
-[npm]: https://www.npmjs.com/package/vue-fa
-[npm-version]: https://img.shields.io/npm/v/vue-fa.svg
-[npm-downloads]: https://img.shields.io/npm/dt/vue-fa.svg
-[npm-license]: https://img.shields.io/npm/l/vue-fa.svg
+[npm]: https://www.npmjs.com/package/plupload-i18n-es
+[npm-version]: https://img.shields.io/npm/v/plupload-i18n-es.svg
+[npm-downloads]: https://img.shields.io/npm/dt/plupload-i18n-es.svg
+[npm-license]: https://img.shields.io/npm/l/plupload-i18n-es.svg
 
-[github]: https://github.com/Cweili/vue-fa
-[github-issues]: https://img.shields.io/github/issues/Cweili/vue-fa.svg
+[github]: https://github.com/Cweili/plupload-i18n-es
+[github-issues]: https://img.shields.io/github/issues/Cweili/plupload-i18n-es.svg
 
 [plupload]: https://github.com/moxiecode/plupload
 [plupload-language-pack]: http://www.plupload.com/docs/Plupload-in-Your-Language
